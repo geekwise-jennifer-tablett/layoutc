@@ -1,69 +1,63 @@
 html,body{margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-size: 62.5%;
-width:100%;
-height: 100%;
-    background-color: white;
+font-size: 62.5%; background-color: white;
 }
    
 body{
     margin: 0 auto; background-color:antiquewhite
-   width:100%;
+    width:90%;
     height: 100%;
 }
 
-main{margin: 0 auto;
-padding:0;
-box-sizing: border-box;
-    text-align: center;
-font-size: 5em;
-    line-height:5em; 
-    background-color: crimson;
+main{margin:0 auto;
+ padding:0;
+ box-sizing: border-box;
+ text-align: center;
+ font-size: 5em;
+ line-height:100%;width:100%;
+ background-color: crimson;
 }
 
 header{margin:1em;
 padding-bottom:2em;
-box-sizing: border-box;
-    height: 05em;
-    background-color:sandybrown;
+height: 05em; background-color:sandybrown;
 }
 
 section{border-spacing: 5;margin:2em;
-    padding-bottom:0;
-    box-sizing: border-box;
-}
-
-#box1{margin: 0;
-    box-sizing: border-box;
-    height:30%;
-width:33.3%; float: left;
-    background-color: pink;
-}
-
-#box2{margin:0;
 padding:0;
-box-sizing: border-box;
-      height:30%;
-    width:33.3%;
+width:90%;
+}
+
+#box1{margin: 1em;
+ height:100%;
+ width:25%; float: left;
+ background-color: pink;
+}
+
+#box2{margin:1em;
+ padding:0;
+ box-sizing: border-box;
+ height:100%;
+ width:25%;
     
     float:left;
 background-color: palegoldenrod
 }
 
-#box3{margin:0;
+#box3{margin:1em;
 padding: 0;
 box-sizing: border-box;
     float: right;
       height:100%/;
-    width:calc(100%/3);
+    width:25%;
 background-color:palevioletred;
 }
 
-footer{margin: 2em;
-padding: 2em;
-box-shadow: border-box;
-    height: 5em;
+footer{margin:1em;
+padding:2em;
+box-sizing: border-box;
+    height: 05em;
 background-color: lightsteelblue}
 
          
